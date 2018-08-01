@@ -10,6 +10,8 @@ namespace PetaPocoDemo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("测试vs提交");
+            Console.ReadKey();
         }
     }
 }
