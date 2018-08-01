@@ -1145,6 +1145,30 @@ namespace PetaPocoDemo.Entity
 
 
 
+
+
+		[Column] public string UserName { get; set; }
+
+
+
+
+
+		[Column] public string Pwd { get; set; }
+
+
+
+
+
+		[Column] public DateTime? BirthDate { get; set; }
+
+
+
+
+
+		[Column] public bool InUse { get; set; }
+
+
+
 	}
 
 
